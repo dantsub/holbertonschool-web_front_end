@@ -1,0 +1,10 @@
+/* Nested deeper, Note: a maximum of 3 levels of nesting must be used */
+body {
+    font-size: 14px; 
+    h1 {
+        font-size: 16px; 
+        &.smaller {
+            font-size: 12px;
+        }
+    }
+}
