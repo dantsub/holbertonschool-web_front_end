@@ -350,6 +350,9 @@ a:active {
   margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
+.section {
+    padding: var(--section-padding);
+}
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
@@ -360,9 +363,6 @@ a:active {
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-}
-.section {
-    padding: var(--section-padding);
 }
 footer {
     padding: var(--footer-padding);
