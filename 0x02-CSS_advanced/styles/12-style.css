@@ -53,6 +53,7 @@ a {
   text-transform: var(--section-tagline-transform);
 }
 .section-title {
+  font-size: var(--font-size-xx-large);
   margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
