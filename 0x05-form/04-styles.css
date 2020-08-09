@@ -680,7 +680,7 @@ label {
 }
 input[type=text],
 input[type=email],
-input[type=textarea] {
+textarea {
   position: relative;
   width: 100%;
   padding: 1.2rem;
@@ -696,7 +696,7 @@ input[type=email] {
 }
 input[type=text]:focus,
 input[type=email]:focus,
-input[type=textarea]:focus {
+textarea:focus {
   border: .1rem solid var(--color-grey);
   background-color: var(--color-light-grey);
 }
