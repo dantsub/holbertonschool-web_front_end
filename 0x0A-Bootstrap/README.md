@@ -812,7 +812,7 @@ The second section:
 </html>
 ~~~
 
-**Build this responsive web page:**
+**Create the custom stylesheet *6-styles.css* to match this layout.**
 
 ![6.1-index](assets/6.1-index.png)
 
