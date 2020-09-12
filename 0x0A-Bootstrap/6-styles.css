@@ -1,23 +1,33 @@
-a,
-a:focus,
-a:hover {
-  color: #E0003C;
+/* links refined
+   ============================================= */
+a.text-dark:focus,
+a.text-dark:hover {
+  color: #E0003C !important;
+  text-decoration: none;
 }
+/* border refined
+   ============================================= */
 .border-bottom {
-  border-bottom-color: #E0003C !important;
+  border-bottom: 1px solid #E0003C !important;
 }
-.btn {
-  border-color: #E0003C;
-}
+/* buttons refined
+   ============================================= */
+/* btn-primary
+   ============================================= */
 .btn-primary {
+  border-color: #E0003C;
   background-color: #E0003C;
+  color: #FFFFFF;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
   background-color: #BC1340 !important;
   border-color:#E0003C !important;
+  color: #FFFFFF !important;
 }
+/* btn-outline-primary
+   ============================================= */
 .btn-outline-primary {
   border-color: #E0003C;
   color: #E0003C;
@@ -28,8 +38,10 @@ a:hover {
   border-color: #E0003C !important;
   background-color: #E0003C !important;
 }
+/* cards refined
+   ============================================= */
 .card {
-  border-color: #E0003C;
+  border: 1px solid #E0003C;
   border-radius: 1rem;
 }
 .card-header {
@@ -38,8 +50,10 @@ a:hover {
   color: #FFFFFF;
 }
 .card-header:first-child {
-  border-radius: calc(1rem - 1.5px) calc(1rem - 1.5px)  0 0;
+  border-radius: calc(1rem - 1px) calc(1rem - 1px)  0 0;
 }
+/* text-muted refined
+   ============================================= */
 .text-muted {
-  color: #8C8C8C;
+  color: #8C8C8C !important;
 }
