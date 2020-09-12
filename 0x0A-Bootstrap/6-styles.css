@@ -23,7 +23,7 @@ a.text-dark:hover {
 .btn-primary:focus,
 .btn-primary:active {
   background-color: #BC1340 !important;
-  border-color:#E0003C !important;
+  border-color:#BC1340 !important;
   color: #FFFFFF !important;
 }
 /* btn-outline-primary
@@ -37,6 +37,7 @@ a.text-dark:hover {
 .btn-outline-primary:active {
   border-color: #E0003C !important;
   background-color: #E0003C !important;
+  color: #FFFFFF;
 }
 /* cards refined
    ============================================= */
